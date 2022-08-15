@@ -8,7 +8,7 @@ public class Metodo {
     public static void main(String[] args) {
         Scanner r= new Scanner(System.in);
         System.out.println("Escolha a operacao: \n1. Soma \n2.Subtracao  \n3. Multiplicacao"
-                + "\n4. Divisao");
+                + "\n4. Divisao \n5. Resto");
         int opcao = r. nextInt();
         int n1; int n2;
         switch(opcao){
@@ -44,6 +44,14 @@ public class Metodo {
                 n2=r.nextInt();
                 System.out.println("Resultado: "+dividir(n1,n2));
                 break;
+            
+            case 5:
+                System.out.println("Primeiro Numero: ");
+                n1=r.nextInt();
+                System.out.println("Segundo Numero: ");
+                n2=r.nextInt();
+                System.out.println("Resultado: "+resto(n1,n2));
+                break;
                 
             default:
                 System.out.println("Escolha invalida");
@@ -70,5 +78,8 @@ public class Metodo {
         int c=a+b;
         return c;
     }
-    
+     public static int resto(int a, int b){
+        int c=a%b;
+        return c;
+    }
 }
