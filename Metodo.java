@@ -53,6 +53,8 @@ public class Metodo {
                 System.out.println("Resultado: "+resto(n1,n2));
                 break;
                 
+           
+                
             default:
                 System.out.println("Escolha invalida");
                 break;
@@ -75,11 +77,13 @@ public class Metodo {
         return c;
     }
     public static float dividir(int a, int b){
-        int c=a+b;
+        int c=a/b;
         return c;
     }
      public static int resto(int a, int b){
         int c=a%b;
         return c;
     }
+     
+     
 }
