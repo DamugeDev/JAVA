@@ -1,5 +1,7 @@
 
 package dmg;
+/*Construa um programa que gere aleatoriamente N valores inteiros no intervalo de [–100, 100[ sendo o valor de N dado pelo utilizador.
+O programa deverá contar quantos valores gerados são positivos e quantos são negativos.*/
 import java.util.Scanner;
 public class Dmg {
 
